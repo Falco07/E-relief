@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  background: #2256dc;
+  padding: 20px;
+  border-color: #2256dc;
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+input,
+select {
+  background: #ffffff;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #e4e4e4;
+  border-radius: 6px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+input :hover {
+  border-color: #2256dc;
+}
+input:focus,
+select:focus {
+  border-color: #2256dc;
+  outline: none;
+}
+
+img {
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-block: 2em;
+  background-image: url(./asset/pictures/NGO\ Registration_.jpg);
+}
+.hero {
+  width: 40%;
+  padding: 2em;
+}
+
+.text {
+  padding: 1em;
+  text-align: justify;
+  line-height: 1.5;
+}
+.text h2 {
+  margin-block: 1em;
+}
+form {
+  padding: 2em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.input_container {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.formHeader {
+  text-align: center;
+  margin: 0 auto;
+}
+.back {
+  align-content: center;
+  color: black;
+}
+.label_container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.label {
+  display: block;
+  width: 100%;
+  gap: 1em;
+}
+@media (max-width: 600px) {
+  .label_container {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .text {
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  input{
+    width: 100%;
+  }
+  form{
+    padding: 0.5em;
+  }
+}
+a {
+  color: #2256dc;
+}
